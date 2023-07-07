@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="/calc/script.js" defer></script> <!-- Link the javascript file here (don't forget to add the defer attribute) -->
+    <title>Calculator</title>
+   
+  </head>
+  <body>
+    <input type="number" name="" id="num1-el" />
+    <input type="number" name="" id="num2-el" />
+
+    <section class="container">
+      <!-- call the "add" function inside of an onclick attribute for the add button -->
+      <button class="btn" onclick="addNum()">Add</button>
+
+      <!-- call the "subtract" function inside of an onclick attribute for the subtract button -->
+      <button class="btn" onclick="subNum()">Subtract</button>
+
+      <!-- call the "divide" function inside of an onclick attribute for the divide button -->
+      <button class="btn" onclick="divNum()">Divide</button>
+
+      <!-- call the "multiply" function inside of an onclick attribute for the multiply button -->
+      <button class="btn" onclick="multNum()">Multiply</button>
+    </section>
+
+    <p id="sum-el">Sum:</p>
+
+  </body>
+</html>
