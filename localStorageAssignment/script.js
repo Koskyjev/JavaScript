@@ -1,6 +1,5 @@
 
 let fruit = document.getElementById("fruit");
-let errorMsg = document.getElementById("verify");
 const ulEl = document.getElementById("ul-el");
 let resetButton = document.getElementById("reset");
 let addButton = document.getElementById("add");
@@ -17,7 +16,7 @@ displayList()
 function addFruits() {
     let errorMsg = document.getElementById("verify");
     errorMsg.textContent = "";
-    inputFruit = fruit.value.trim()
+    let inputFruit = fruit.value.trim()
 
     if (inputFruit === "") {
         errorMsg.textContent = "Add fruit in a list"
